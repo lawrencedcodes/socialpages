@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/*
+    ////////////////////BEGIN HEADER///////////////////
+*/
+header {
+    background: #3B5998;
+    color: white;
+    padding: 15px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+.logo-area {
+    color: white;
+    display: inline-block;
+    width: 15%;
+}
+.logo-area a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.personal-area {
+    display: inline-block;
+    width: 20%;
+}
+.personal-area ul li {
+    display: inline-block;
+}
+.personal-area li {
+      margin-left: 5%;
+    }
+.icon-area {
+    display: inline-block;
+    width: 10%;
+}
+.icon-area ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.privacy-area {
+    display: inline-block;
+    width: 10%;
+}
+.search-area {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+.search-area ul li {
+    display: inline-block;
+}
+#title {
+    font-size: 175%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+}
+/*
+    /////////////////////////END HEADER//////////////////
+    ///////////////////////BEGIN TOP AREA////////////////
+*/
+#top-area {
+    padding: 200px 15px 90px 15px;
+    background: url(https://odis.homeaway.com/odis/listing/9c61442f-2904-4782-8e4f-3b74c06ad54e.c10.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80vh;
+}
+#top-area .profile-info #user-image{
+    padding: 10px;
+    display: inline-block;
+}
+#top-area .profile-info #user-image img {
+    border-radius: 50%;
+}
+#top-area .profile-info #user-details {
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 20px;
+    }
+#top-area .profile-info #user-details h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+#top-area .profile-info #user-details a {
+        background: rgba(255,255,255, .3);
+        display: inline-block;
+        margin-left: -4px;
+        margin-right: 5%;
+        width: 45%;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 10px;
+        padding: 10px;
+        border-radius: 3px;
+        transition: background .4s ease-in-out;
+    }
+    #top-area .profile-info #user-details a:hover {
+        background: #2B8998;
+    }
+/*
+    ///////////END TOP AREA/////////////////////////////
+    ///////////BEGIN CONTENT AREA//////////////////////
+*/
+#content-area {
+    background: #FAFAFA;
+    overflow: auto;
+    padding: 50px 0;
+    border-radius: 2px;
+}
+#content-area .side-column {
+        float: left;
+        width: 35%;
+        max-width: 330px;
+        margin: 0 2.5%;
+    }
+#content-area .widget {
+        margin: 0 0 15px 0;
+        padding: 15px;
+        overflow: auto;
+        background: #fff;
+        -webkit-box-shadow: 0px 3px 5px 0px rgba(82,76,82,1);
+        -moz-box-shadow: 0px 3px 5px 0px rgba(82,76,82,1);
+        box-shadow: 0px 3px 5px 0px rgba(82,76,82,1);
+    }
+#content-area .widget .head .widget-icon {
+        background: #BFBFBF;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #content-area .widget .head .widget-title {
+       display: inline-block;
+    }
+
+#content-area .widget .head .widget-icon .fa {
+        max-width: 50%;
+        font-size: 23px;
+    }
+#content-area .main-area {
+        float: left;
+        width: 55%;
+        margin: 0 2.5%;
+    }
+#content-area .widget .body{
+    padding: 15px 0;
+}
