@@ -157,15 +157,48 @@ header a {
        display: inline-block;
     }
 
-#content-area .widget .head .widget-icon .fa {
+    #content-area .widget .head .widget-icon .fa {
         max-width: 50%;
         font-size: 23px;
     }
-#content-area .main-area {
+    #content-area .main-area {
         float: left;
         width: 55%;
         margin: 0 2.5%;
     }
-#content-area .widget .body{
+    #content-area .widget .body{
     padding: 15px 0;
 }
+    #content-area .main-area ul {
+       margin: 0;
+       padding: 0;
+    }
+    #content-area .main-area .submenu ul li {
+       display: inline-block;
+       width: 20%;
+       float: left;
+       text-align: center;
+       border-bottom: 3px solid #fff;
+       transition: all .4s ease-in-out;
+       cursor: pointer;
+    }
+    #content-area .main-area .submenu ul li:nth-child(5) {
+        padding-top: 8px;
+    }
+    #content-area .main-area .submenu ul li:hover {
+            border-bottom: 3px solid #2196F3;
+            color: #2196F3;
+        }
+    #content-area .main-area .widget .submenu {
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+    #content-area .main-area ul li span {
+        display: block;
+        margin: 10px 0 0 0;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    #content-area .main-area .submenu ul li .fa{
+       font-size: 20px;
+    }
