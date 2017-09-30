@@ -6,6 +6,11 @@ html {
 }
 a {
     text-decoration: none;
+    color: #2196F3;
+    transition: all .2s ease-in-out;
+}
+a:hover {
+    color: red;
 }
 /*
     ////////////////////BEGIN HEADER///////////////////
@@ -202,3 +207,71 @@ header a {
     #content-area .main-area .submenu ul li .fa{
        font-size: 20px;
     }
+    #content-area .main-area .widget.post {
+        overflow: auto;
+    }
+
+    #content-area .main-area .widget.post .head .user-img-container {
+            width: 8%;
+            display: inline-block;
+            overflow: auto;
+            float: left;
+        }
+        #content-area .main-area .widget.post .head .user-img {
+            display: inline-block;
+            float: left;
+            background: url(https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAt-AAAAJDFjNGY4ODMxLTE1MmItNDZjNi04M2VjLTgzNzVkNTNlMDYwNQ.jpg) no-repeat center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            height: 40px;
+            width: 40px;
+            margin: 0 0 0 0;
+            border-radius: 50%;
+        }
+    #content-area .main-area .widget.post .head .post-info {
+        display: inline-block;
+        float: left;
+        width: 92%;
+    }
+    #content-area .main-area .widget.post .head::after {
+            content: " ";
+            clear: both;
+            display: table;
+        }
+        #content-area .main-area .widget.post .head .post-info .user-info{
+            display: block;
+            font-size: 14px;
+            margin: 4px 0 6px 0;
+        }
+        #content-area .main-area .widget.post .head .post-info .post-date {
+            display: block;
+            font-size: 12px;
+            color: #ABABAB;
+        }
+        #content-area .main-area .widget.post .body .post-img img {
+            width: 100%;
+        }
+        #content-area .main-area .widget.post .body .post-comments .user-img {
+            width: 8%;
+            display: inline-block;
+            overflow: auto;
+            float: left;
+        }
+        #content-area .main-area .widget.post .body .post-comments::after {
+            content: " ";
+            clear: both;
+            display: table;
+        }
+        #content-area .main-area .widget.post .body .post-comments .user-img img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+
+
+        #content-area .main-area .widget.post .body .post-form img {
+            width: 35%;
+            border-radius: 50%
+        }
