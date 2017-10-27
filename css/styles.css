@@ -203,7 +203,7 @@ header a {
         display: block;
         margin: 10px 0 0 0;
         text-transform: uppercase;
-        font-size: 13px;
+        font-size: .75rem;
     }
     #content-area .main-area .submenu ul li .fa{
        font-size: 20px;
